@@ -6,7 +6,7 @@ import hashlib
 import random
 
 # This script converts a structured text file into an XML file that can be read by Adobe Illustrator.
-# Adobe Illustrator uses the file to auto-generate "Certificates of Particiaption" for training course participants.
+# Adobe Illustrator uses the file to auto-generate instances of a template with at least three fields in the template: userName, emailAddress, and hash.
 # The conversion process involves the following files:
 #   participants.txt > hashes.txt > dataset.xml
 # Each row of the "participants.txt" file should be structured as follows:
